@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#A9DC2420"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/dance"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:scaleType="centerInside"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="YOUR NAME"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        />
+
+    <EditText
+        android:id="@+id/patner_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="YOUR PATNER'S NAME"
+        android:layout_margin="10dp"
+        android:padding="20dp"
+        />
+
+    <Button
+        android:id="@+id/know"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:text="KNOW"
+        android:textSize="25dp"
+        android:elevation="100dp"
+        android:background="#4B8FD6DF"/>
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+
+</LinearLayout>

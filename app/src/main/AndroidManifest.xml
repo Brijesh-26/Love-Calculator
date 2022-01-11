@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codewithharry.lovecalculator">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoveCalculator">
+        <activity
+            android:name=".ActivityForBestOfArtists.BashirActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBestOfArtists.JavedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBestOfArtists.GulzarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBestOfArtists.FaizActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBestOfArtists.GhalibActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBestOfArtists.RahatActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBreakupShayari.SadActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBreakupShayari.YaadeinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBreakupShayari.BrokenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBreakupShayari.BewafaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBreakupShayari.AloneActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBreakupShayari.AansooActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForBreakupShayari.AnkheinActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForLoveShayari.BeautyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForLoveShayari.WineActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForLoveShayari.HeartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForLoveShayari.ForYourActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityForLoveShayari.RomanticActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LoveQuiz"
+            android:exported="true" />
+        <activity
+            android:name=".LoveQuotes"
+            android:exported="true" />
+        <activity
+            android:name=".GenderAcitivity"
+            android:exported="true" />
+        <activity
+            android:name=".ShareApp"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

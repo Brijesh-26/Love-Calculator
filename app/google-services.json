@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "869924298478",
+    "project_id": "love-calculator-real",
+    "storage_bucket": "love-calculator-real.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869924298478:android:927e0df2210a6820df9dff",
+        "android_client_info": {
+          "package_name": "com.codewithharry.lovecalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869924298478-90heu62i9oq8j2sugidodpul4longs69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpPNi5bjNlfqlrT6KxzuSxX9E461nnEGs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869924298478-90heu62i9oq8j2sugidodpul4longs69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
